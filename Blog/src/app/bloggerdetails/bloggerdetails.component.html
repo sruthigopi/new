@@ -1,0 +1,28 @@
+
+<div class="card" style="width: 60rem;">
+<br>
+    <div class="card-body" *ngFor="let blog of blog">
+      <h2 class="card-title">{{blog.title}}</h2>
+      <h5 class="card-title">Published on {{blog.date}}</h5>
+      <br>
+      <br>
+      <h5 class="card-title">{{blog.articletitle}}</h5>
+     <img [src]="blog.imageUrl"
+     [style.width.px]="imageWidth"
+     [style.margin.px]="imageMargin"
+     [style.margin-left.px]="300">
+      <p class="card-text">{{blog.articlebody}}</p>
+      
+    </div>
+
+ >
+
+
+  </div>
+
+
+  <div class="btns">
+  <button type="button" class="btn btn-success btn1">Like</button>
+  <button type="button" class="btn btn-success btn2">Share</button>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="cmt">
+    <h3>COMMENTS</h3>
+</div>
+<div class="card" style="width: 45rem;">
+    <div class="card-body" *ngFor="let blog of blog">
+        <div class="col-1">
+            <img [width]="50" src="https://thumbs.dreamstime.com/z/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg">
+        </div>
+        <p class="card-text">{{blog.data}}</p>
+      </div>
+  </div>

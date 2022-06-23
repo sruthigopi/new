@@ -1,0 +1,14 @@
+.navbar{
+    background-color:cadetblue;
+    
+}
+.navbar-brand, .nav-link{
+    color: white;
+    font-family:cursive;
+}
+button.navbar-toggle.collapsed{
+    background-color: black;
+}
+span.navbar-toggler-icon{
+    background-color: yellow;
+}

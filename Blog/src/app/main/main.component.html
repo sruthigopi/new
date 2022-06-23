@@ -1,0 +1,27 @@
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg">
+        
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img [src]="image"
+        [style.width.px]="imageWidth"
+        [style.margin.px]="imageMargin">
+        <h4>SRUTHI GOPINATH</h4>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <form class="d-flex">
+        
+          <div class="one">
+           
+           
+            <h5>{{count}} followers</h5>
+            
+            <button id="btn" type="button" class="btn btn-outline-success btn-lg" (click)="addNum()">Follow</button>
+          </div>
+          </form>
+      </div>
+  
+  </nav>
+</div>
